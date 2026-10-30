@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome Email — Free Author Newsletter Kit</title>
+<style>
+  :root { --ink: #1a1a1a; --muted: #555; --line: #ddd; --accent: #2563eb; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); line-height: 1.6; margin: 0; padding: 16px; background: #f7f8fa; }
+  .page { max-width: 720px; margin: 0 auto; background: #fff; padding: 32px 40px; border-radius: 12px; border: 1px solid var(--line); }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { margin: 0 0 4px; font-size: 22px; }
+  .subtitle { color: var(--muted); font-size: 14px; }
+  h2 { font-size: 16px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin: 24px 0 10px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 8px 0 16px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; margin-bottom: 20px; font-size: 13px; color: var(--muted); }
+  .meta b { color: var(--ink); }
+  .fill { font-family: inherit; font-size: inherit; border: none; border-bottom: 1.5px solid var(--line); background: transparent; padding: 2px 4px; border-radius: 3px; color: var(--ink); min-width: 150px; }
+  .fill:focus { outline: none; border-bottom-color: var(--accent); background: #f1f6ff; }
+  .fill::placeholder { color: #999; }
+  .checkbox-group { display: inline-block; margin-right: 14px; font-size: 13px; }
+  .checkbox-group input { margin-right: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 13px; }
+  th, td { border: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: #f2f4f8; color: var(--muted); font-weight: 600; }
+  .blank { height: 28px; border-bottom: 1.5px solid var(--line); padding-bottom: 2px; min-width: 220px; }
+  footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  .credit { font-weight: 600; color: var(--accent); }
+  .no-print { display: block; }
+  .print-hint { margin-top: 18px; font-size: 12px; color: var(--muted); }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { border: none; border-radius: 0; box-shadow: none; padding: 0; }
+    .no-print { display: none !important; }
+    .fill { border-bottom: 1px solid #444; background: transparent !important; }
+    .print-hint { display: none; }
+    a { color: var(--ink); text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <h1>Welcome Email Template</h1>
+    <p class="subtitle">Free Author Newsletter Kit &bull; Fillable &bull; Printable</p>
+  </header>
+
+  <p><b>Purpose:</b> First email a new subscriber receives after signing up.
+  Sets expectations, delivers the promised freebie, and invites a reply so your
+  future emails land in the primary inbox.</p>
+
+  <div class="meta">
+    <div><b>From:</b> <input type="text" class="fill" placeholder="Your Name &lt;you@example.com&gt;"></div>
+    <div><b>Subject:</b> <input type="text" class="fill" placeholder="Welcome to the list, [First Name]!"></div>
+  </div>
+
+  <h2>Email body</h2>
+
+  <p>Hi <input type="text" class="fill" placeholder="Subscriber First Name">,</p>
+
+  <p>Thanks for signing up! I'm <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:140px">Your Name</span>, author of <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:160px">Book Title</span> and founder of Asdale Dynamics, LLC. I write about <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:200px">topic</span>.</p>
+
+  <h3>What to expect</h3>
+  <ul>
+    <li><b>How often:</b> about once <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:120px">week / every two weeks / month</span></li>
+    <li><b>What's inside:</b> <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:260px">one practical AI tip, a book update, and a link worth clicking</span></li>
+    <li><b>Sending day:</b> <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:160px">day of the week at time</span></li>
+  </ul>
+  <p><small>You can unsubscribe at any time — link at the bottom of every email.</small></p>
+
+  <h3>Your freebie</h3>
+  <p>As promised, here's <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:180px">freebie name</span>:</p>
+  <p><span class="fill" contenteditable="true" style="display:block;width:100%;border-bottom:1.5px solid #ddd;padding:0 2px;min-height:24px">Delivery link or attach the file</span></p>
+  <p><small>If you have trouble downloading it, just reply to this email and I'll send it over manually.</small></p>
+
+  <h3>A small favor</h3>
+  <p>Hit reply and tell me: what's the one thing you'd like to use AI for? Replies help your email provider learn that my messages are welcome, so they don't end up in spam.</p>
+
+  <h3>About me</h3>
+  <p>I'm a registered nurse turned AI author based in Indiana, and I run Asdale Dynamics, LLC — beginner-friendly AI education, books, and practical tools. My book <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:180px">Book Title</span> explains AI "like a friend would." Find me at <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:200px">website</span>.</p>
+
+  <p>Talk soon,<br><span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:180px">Your Name</span><br><span class="fill" contenteditable="true" style="display:block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:220px">Website</span><br><span class="fill" contenteditable="true" style="display:block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:220px">Book link (Amazon / KDP)</span></p>
+
+  <hr>
+  <p><b>Unsubscribe:</b> <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:150px">Unsubscribe link</span> &nbsp;|&nbsp; <b>View in browser:</b> <span class="fill" contenteditable="true" style="display:inline-block;border-bottom:1.5px solid #ddd;padding:0 2px;min-width:150px">Web version link</span></p>
+
+  <p class="print-hint">Tip: print to paper or PDF from your browser's print dialog. Screen-only controls above disappear on print.</p>
+</div>
+
+<div class="page">
+  <h2>Fill-in checklist</h2>
+  <div class="checkbox-group"><input type="checkbox"> Subject line tested on phone and desktop</div>
+  <div class="checkbox-group"><input type="checkbox"> Freebie link works in an incognito window</div>
+  <div class="checkbox-group"><input type="checkbox"> Unsubscribe link present and working</div>
+  <div class="checkbox-group"><input type="checkbox"> Personalization tags render correctly</div>
+  <div class="checkbox-group"><input type="checkbox"> Reply-to address is one I actually check</div>
+  <footer>
+    <p>Created by <span class="credit">Asdale Dynamics, LLC</span> — freebies for authors. No account needed. Nothing phones home.</p>
+  </footer>
+</div>
+
+</body>
+</html>
